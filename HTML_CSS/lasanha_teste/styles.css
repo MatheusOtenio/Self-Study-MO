@@ -1,0 +1,72 @@
+/* Reset de CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilo geral */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    text-align: center;
+    background-color: #fff5e1;
+    color: #333;
+    padding: 20px;
+  }
+  
+  /* Estilo do título */
+  #title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #b33939;
+  }
+  
+  /* Estilo da imagem e legenda */
+  #img-div {
+    margin: 20px auto;
+    max-width: 500px;
+    text-align: center;
+  }
+  
+  #image {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+    border: 5px solid #b33939;
+  }
+  
+  #img-caption {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  /* Estilo da seção de informações */
+  #tribute-info {
+    margin: 20px auto;
+    font-size: 1.2rem;
+    max-width: 800px;
+    text-align: justify;
+  }
+  
+  /* Estilo do link */
+  #tribute-link {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    color: #fff;
+    background-color: #ff793f;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  #tribute-link:hover {
+    background-color: #e84118;
+  }
+  
